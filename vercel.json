@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "ip-sakti-ayush",
+  "builds": [
+    {
+      "src": "*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
